@@ -1,0 +1,208 @@
+@import url('normalize.css');
+
+body{
+    width: 375px;
+    background-color: #F3E5D8;
+    padding: 30px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+p{
+    font-size: 16px;
+    margin: 15px 0 0 0;
+    text-align:start;
+}
+.title-area{
+    margin: 30px 0 30px 0;
+}
+
+.preparation-area{
+    margin: 0 0 0px 25px;
+}
+.preparation-area h3 {
+    color: #7b284f;
+}
+.preparation-area ul {
+    margin: 20px 0 50px 15px;
+}
+
+span{
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    line-height: 30px;
+}
+
+.container {
+    background-color: #FFF7FC;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+h1{
+    font-size: 26px;
+    font-family: 'young';
+}
+
+h2 {
+    color: #854632;
+     
+}
+
+.Ingredients-area ul {
+    padding: 20px 0 20px 15px;
+}
+.Ingredients-area span {
+    padding: 0 0 0 20px;
+    font-weight: normal;
+}
+
+
+.instructions-area ol {
+    padding: 20px 0 20px 15px;
+    margin: 15px 0;
+}
+.instructions-area span {
+    padding: 0 0 0 0;
+}
+#text {
+    margin-left: 30px;
+    line-height: 20px;
+}
+.instructions-area li {
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 0px;
+    padding: 20px 0 ;
+}
+
+.informations .colunm-2{
+    color: #854632;
+    font-weight: bold;
+}
+.colunm-2 div, .colunm-1 div {
+    margin: 0 0 20px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+@media (width > 767px) {
+    body{
+        width:1440px;
+        max-width: 100%;
+        background-color: #F3E5D8;
+        padding: 30px;
+        margin: auto;
+    }
+    img {
+        width: 100%;
+        max-width: 800px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 16px;
+        margin: 15px 0 0 0;
+        text-align:start;
+    }
+    .title-area{
+        margin: 30px 0 30px 0;
+    }
+    
+    .preparation-area{
+        margin: 0 0 0px 25px;
+    }
+    .preparation-area h3 {
+        color: #7b284f;
+    }
+    .preparation-area ul {
+        margin: 20px 0 50px 15px;
+    }
+    
+    span{
+        font-weight: bold;
+        padding: 0 0 0 20px;
+        line-height: 30px;
+    }
+    
+    .container {
+        background-color: #FFF7FC;
+        padding: 20px;
+        border-radius: 10px; 
+    }
+    
+    h1{
+        font-size: 42px;
+        font-family: 'young';
+    }
+    
+    h2 {
+        color: #854632;
+         
+    }
+    
+    .Ingredients-area ul {
+        padding: 20px 0 20px 15px;
+    }
+    .Ingredients-area span {
+        padding: 0 0 0 20px;
+        font-weight: normal;
+    }
+    
+    
+    .instructions-area ol {
+        padding: 20px 0 20px 15px;
+        margin: 15px 0;
+    }
+    .instructions-area span {
+        padding: 0 0 0 0;
+    }
+    #text {
+        margin-left: 30px;
+        line-height: 20px;
+    }
+    .instructions-area li {
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .informations {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px 0 30px;
+        padding: 20px 0 ;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .informations .colunm-2{
+        color: #854632;
+        font-weight: bold;
+    }
+    .colunm-2 div, .colunm-1 div {
+        margin: 0 0 20px 0;
+    }
+}
